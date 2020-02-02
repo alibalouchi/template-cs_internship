@@ -6,7 +6,6 @@ body {
 }
 
 .container {
-  width: 95%;
   margin-left: 300px;
 }
 
@@ -294,6 +293,10 @@ a:hover {
   box-sizing: border-box;
 }
 
+.earning-table th {
+  text-align: left;
+}
+
 .earning-card{
   width: 100%;
   box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.1);
@@ -412,7 +415,7 @@ td {
   font-size: 16px;
   color: #666;
   box-sizing: border-box;
-  text-align: center;
+  text-align: left;
   margin: 15px;
 }
 
@@ -586,11 +589,10 @@ td {
 }
 
 .screen-shrink {
-  width: 95%;
   display: grid;
-  grid-gap: 10px;
   grid-template-areas: 'card card';
-  text-align: center;
+  grid-gap: 30px;
+  margin: 20px;
 }
 
 @media (max-width: 992px){
